@@ -1,0 +1,619 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px"微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+html{font-size: 27.75px !important;}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.bigwrap,.swiper-container,.swiper-wrapper,.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide{
+	position: relative;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.phone{
+	position: relative;
+	width: 12rem;
+	height: 20rem;
+	left: 3.5rem;
+	top: 4rem;
+	background: url(../img/iPhone.png) no-repeat;
+	background-size: 100% 100%;
+}
+.imgtitle{
+	width: 8rem;
+	display: block;
+	position: absolute;
+	left: 5.5rem;
+	top: 1rem;
+}
+.imginfo{
+	width: 10rem;
+	display: block;
+	position: absolute;
+	left: 4.4rem;
+	top: 3.5rem;
+}
+.content{
+	width: 7.8rem;
+	height: 13.1rem;
+	position: absolute;
+	left: 2.1rem;
+	top: 3.3rem;
+	background: url(../img/phonepage.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.backwrap{
+	width: 80%;
+	height: 70%;
+	position: absolute;
+	top: 5rem;
+	left: 4rem;
+	background: url(../img/morecolor.png) no-repeat;
+	background-size: 100% 100%;
+}
+.img6{
+	display: block;
+	width: 3.5rem;
+	position: absolute;
+	left: 13rem;
+	top: 9rem;
+	z-index: 1000;
+}
+
+.dog{
+	display: block;
+	opacity: 0;
+	width: 2.2rem;
+	position: absolute;
+	left: 4rem;
+	top: 13.7rem;
+}
+
+.present{
+	display: block;
+	width: 5.5rem;
+	position: absolute;
+	left: 4rem;
+	top: 19.6rem;
+}
+.presentbox{
+	display: block;
+	width: 7.95rem;
+	position: absolute;
+	left: 2.1rem;
+	top: 8.3rem;
+	overflow: hidden;
+	
+}
+.hand{
+	width: 2rem;
+	position: absolute;
+	left: 9rem;
+	top: 15.7rem;
+}
+.wolf1{
+	display: block;
+	width: 8rem;
+	position: absolute;
+	left: 5.5rem;
+	top: 8rem;
+}
+.wolf2{
+	display: block;
+	width: 6rem;
+	position: absolute;
+	left: 8.5rem;
+	top: 13rem;
+}
+.wolf3{
+	display: block;
+	width: 6rem;
+	position: absolute;
+	left: 4.5rem;
+	top: 13rem;
+}
+.wolf4{
+	display: block;
+	width: 4rem;
+	position: absolute;
+	left: 4.5rem;
+	top: 18rem;
+}
+.wolf5{
+	display: block;
+	width: 4rem;
+	position: absolute;
+	left: 11.3rem;
+	top: 18rem;
+}
+.boom1{
+	display: block;
+	width: 6rem;
+	position: absolute;
+	left: 6.5rem;
+	top: 11rem;
+}
+.boom2{
+	display: block;
+	width: 6rem;
+	position: absolute;
+	left: 3.5rem;
+	top: 14rem;
+}
+.boom3{
+	display: block;
+	width: 6rem;
+	position: absolute;
+	left: 11.5rem;
+	top: 13rem;
+}
+.boom4{
+	display: block;
+	width: 6rem;
+	position: absolute;
+	left: 5.5rem;
+	top: 17rem;
+}
+.boom5{
+	display: block;
+	width: 6rem;
+	position: absolute;
+	left: 9.3rem;
+	top: 17rem;
+}
+.phone-two{
+	position: relative;
+	width: 12rem;
+	height: 20rem;
+	left: 3.5rem;
+	top: 4rem;
+	background: url(../img/iPhone.png) no-repeat;
+	background-size: 100% 100%;
+}
+.content-two{
+	width: 7.8rem;
+	height: 13.1rem;
+	position: absolute;
+	left: 2.1rem;
+	top: 3.3rem;
+	background: url(../img/getpage.png) no-repeat;
+	background-size: 100% 100%;
+}
+.suplink{
+    display: block;
+    width: 5.5rem;
+    height: 1.8rem;
+    position: absolute;
+    left: 6.8rem;
+    top: 24.6rem;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.8rem;
+}
+.spe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.number{
+	display: block;
+	width: 1rem;
+}
+.num{
+	width: 3.2rem;
+	position: absolute;
+	left: 5.8rem;
+	top: 9.5rem;
+}
+.num span{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.num3{
+	width: 1.5rem;
+	position: absolute;
+	left: 6.1rem;
+	top: 12.7rem !important;
+}
+.num2{
+	position: absolute;
+	left: 10rem;
+	top: 12.7rem !important;
+}
+.num1{
+	position: absolute;
+	left: 8.7rem;
+	top: 13.7rem !important;
+}
+.kb1{
+    display: block;
+    width: 2rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 10rem;
+}
+.kb2{
+	display: block;
+	width: 2rem;
+	position: absolute;
+	left: 13.5rem;
+	top: 16rem;
+}
+.kb3{
+	display: block;
+	width: 1rem;
+	position: absolute;
+	left: 15.5rem;
+	top: 13rem;
+}
+.kb4{
+    display: block;
+    width: 1rem;
+    position: absolute;
+    left: 14.5rem;
+    top: 20rem;
+}
+.kb5{
+	display: block;
+	width: 1rem;
+	position: absolute;
+	left: 3rem;
+	top: 16rem;
+}
+.gold1{
+    display: block;
+    width: 2rem;
+    position: absolute;
+    left: .5rem;
+    top: 6rem;
+}
+.gold2{
+    display: block;
+    width: 1.3rem;
+    position: absolute;
+    left: 14.5rem;
+    top: 6rem;
+}
+.gold3{
+    display: block;
+    width: 1rem;
+    position: absolute;
+    left: 3.5rem;
+    top: 14rem;
+}
+.gold4{
+    display: block;
+    width: 1rem;
+    position: absolute;
+    left: 2rem;
+    top: 20.5rem;
+}
+.gold5{
+    display: block;
+    width: 1rem;
+    position: absolute;
+    left: 14.5rem;
+    top: 21.5rem;
+}
+.dia1{
+    display: block;
+    width: 1.4rem;
+    position: absolute;
+    left: 3.9rem;
+    top: 7.5rem;
+}
+.dia2{
+    display: block;
+    width: 3rem;
+    position: absolute;
+    left: 2.8rem;
+    top: 18.6rem;
+}
+.dia3{
+    display: block;
+    width: 2rem;
+    position: absolute;
+    left: 14.5rem;
+    top: 8.3rem;
+}
+.dia4{
+    display: block;
+    width: .7rem;
+    position: absolute;
+    left: 16.5rem;
+    top: 11rem;
+}
+.dia5{
+    display: block;
+    width: 1.2rem;
+    position: absolute;
+    left: 14.2rem;
+    top: 12rem;
+}
+.dia6{
+    display: block;
+    width: 1.2rem;
+    position: absolute;
+    left: 15.5rem;
+    top: 18rem;
+}
+.dia7{
+    display: block;
+    width: 0.8rem;
+    position: absolute;
+    left: 14.5rem;
+    top: 18.5rem;
+}
+.dia8{
+    display: block;
+    width: 1rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 17.5rem;
+}
+.dia9{
+    display: block;
+    width: .8rem;
+    position: absolute;
+    left: 4rem;
+    top: 13rem;
+}
+.dia10{
+    display: block;
+    width: 1.6rem;
+    position: absolute;
+    left: 2rem;
+    top: 14rem;
+}
+.phone-thr{
+	position: relative;
+	width: 12rem;
+	height: 20rem;
+	left: 3.5rem;
+	top: 4rem;
+	background: url(../img/iPhone.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: 1;
+}
+.content-thr{
+	width: 7.8rem;
+	height: 13.1rem;
+	position: absolute;
+	left: 2.1rem;
+	top: 3.3rem;
+	background: url(../img/chatpage.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: 2;
+}
+.fir{
+	display: block;
+	width: 10rem;
+	position: absolute;
+	left: 2.5rem;
+	top: 9rem;
+	z-index: 2;
+}
+.sec{
+	display: block;
+	width: 10rem;
+	position: absolute;
+	left: 2.5rem;
+	top: 11rem;
+	z-index: 2;
+}
+.thr{
+	display: block;
+	width: 10rem;
+	position: absolute;
+	left: 6.5rem;
+	top: 16rem;
+	z-index: 2;
+}
+.group{
+	display: block;
+	width: 11rem;
+	position: absolute;
+	left: 4.5rem;
+	top: 19rem;
+	z-index: 2;
+}
+.good1{
+	display: block;
+	width: .7rem;
+	position: absolute;
+	left: 10.3rem;
+	top: 9.4rem;
+	z-index: 2;
+}
+.good2{
+	display: block;
+	width: .7rem;
+	position: absolute;
+	left: 11.1rem;
+	top: 9.4rem;
+	z-index: 2;
+}
+.kiss1{
+	display: block;
+	width: .7rem;
+	position: absolute;
+	left: 6.9rem;
+	top: 16.5rem;
+	z-index: 2;
+}
+.kiss2{
+	display: block;
+	width: .7rem;
+	position: absolute;
+	left: 7.75rem;
+	top: 16.5rem;
+	z-index: 2;
+}
+.kiss3{
+	display: block;
+	width: .7rem;
+	position: absolute;
+	left: 8.6rem;
+	top: 16.5rem;
+	z-index: 2;
+}
+.jack{
+	display: block;
+	width: 2rem;
+	position: absolute;
+	left: 13.5rem;
+	top: 12rem;
+	z-index: 2;
+}
+.smk{
+	display: block;
+	width: 3rem;
+	position: absolute;
+	left: 14.5rem;
+	top: 7rem;
+	z-index: 2;
+}
+.bsmill{
+	display: block;
+	width: 2.3rem;
+	position: absolute;
+	left: 3.4rem;
+	top: 17rem;
+	z-index: 0;
+}
+.star1{
+	display: block;
+	width: 1.2rem;
+	position: absolute;
+	left: 11.9rem;
+	top: 10.3rem;
+	z-index: 2;
+}
+.star2{
+	display: block;
+	width: .8rem;
+	position: absolute;
+	left: 12.6rem;
+	top: 11.1rem;
+	z-index: 2;
+}
+.heart1{
+	display: block;
+	width: .7rem;
+	position: absolute;
+	left: 5.7rem;
+	top: 16.3rem;
+	z-index: 2;
+}
+.heart2{
+	display: block;
+	width: .5rem;
+	position: absolute;
+	left: 5.6rem;
+	top: 15.8rem;
+	z-index: 2;
+}
+.heart3{
+	display: block;
+	width: .7rem;
+	position: absolute;
+	left: 6.3rem;
+	top: 15.5rem;
+	transform: rotate(45deg);
+	z-index: 2;
+}
+.music1{
+	display: block;
+	width: 1.5rem;
+	position: absolute;
+	left: 15.5rem;
+	top: 18rem;
+	z-index: 2;
+}
+.music2{
+	display: block;
+	width: 1rem;
+	position: absolute;
+	left: 3rem;
+	top: 6rem;
+	z-index: 2;
+}
+.music3{
+	display: block;
+	width: 1.5rem;
+	position: absolute;
+	left: 2.6rem;
+	top: 20rem;
+	z-index: 2;
+}
+.swiper-pagination{
+	position: absolute;
+	left: 8.7rem;
+	top: 27.2rem;
+}
+.swiper-pagination span{
+	margin-right: .5rem;
+}
+
+.swiper-pagination-bullet{
+	width: 6px !important;
+	height: 6px !important;
+	background: rgba(0, 0, 0, 0.5) !important;
+}
+.swiper-pagination-bullet-active{
+	background: rgba(255,255,255,.5) !important;
+}
+.btn{
+	display: block;
+    width: 5.5rem;
+    height: 1.8rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@-webkit-keyframes rotateForever{
+	0%{
+		-webkit-transform:rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotateForever{
+	0%{
+		-webkit-transform:rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.note{
+	display: block;
+	position: absolute;
+    top: .5rem;
+    left: 17.3rem;
+    width: 1.2rem;
+    -webkit-animation: rotateForever 1s linear infinite;
+    animation: rotateForever 1s linear infinite;
+}
